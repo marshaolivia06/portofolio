@@ -957,7 +957,9 @@ footer span { color: var(--accent); font-weight: 600; }
   .nav-links { display: none; }
   section { padding: 64px 24px; }
   #hero { flex-direction: column; gap: 40px; padding-top: 80px; }
-  .hero-right { order: -1; }
+  .hero-right { order: 1; }
+   .project-showcase-images { order: 2; }
+   .project-showcase-info { order: 1; }
   .photo-frame { width: 240px; height: 280px; }
   .photo-chips { right: -10px; }
   .hero-stats { gap: 24px; }
