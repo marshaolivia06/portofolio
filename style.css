@@ -970,6 +970,11 @@ footer span { color: var(--accent); font-weight: 600; }
   right: auto;
   top: auto;
 }
+   .hero-photo-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
   .hero-stats { gap: 24px; }
   .docs-grid { grid-template-columns: 1fr 1fr; }
   .skill-card { max-width: 100%; }
