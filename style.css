@@ -961,14 +961,15 @@ footer span { color: var(--accent); font-weight: 600; }
    .project-showcase-images { order: 2; }
    .project-showcase-info { order: 1; }
   .photo-frame { width: 240px; height: 280px; }
-  .photo-chips { right: -10px; }
-   .photo-chips {
-    position: static;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 12px;
-  }
+  .photo-chips {
+  position: static;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 12px;
+  right: auto;
+  top: auto;
+}
   .hero-stats { gap: 24px; }
   .docs-grid { grid-template-columns: 1fr 1fr; }
   .skill-card { max-width: 100%; }
