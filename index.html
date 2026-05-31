@@ -20,6 +20,7 @@
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#experience">Experience</a></li>
+      <li><a href="#certificates">Certificates</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -310,6 +311,48 @@
     <div class="projects-showcase">
 
       <!-- PROJECT 1 -->
+       <div class="project-showcase-item project-showcase-item--reverse fade-up" data-index="00">
+        <div class="project-showcase-number">00</div>
+        <div class="project-showcase-content">
+          <div class="project-showcase-images">
+            <div class="project-img-main">
+              <img src="skincare1.png" alt="Skincare Marketplace">
+              <div class="project-img-overlay">
+                <button class="btn-view-project" onclick="openModal('modal0')">View Project →</button>
+              </div>
+            </div>
+            <div class="project-img-stack">
+              <img src="skincare2.png" alt="Skincare Marketplace 2">
+              <img src="skincare3.png" alt="Skincare Marketplace 3">
+            </div>
+          </div>
+          <div class="project-showcase-info">
+            <div class="project-type-tag">Marketplace · Web App</div>
+            <h3 class="project-showcase-title">Pure Beauty - Skincare Buying & Selling 🧴</h3>
+            <p class="project-showcase-desc">
+              Developed a web-based skincare marketplace platform with a clean and modern interface. Implemented user authentication, product listing, and a seamless checkout experience. Designed an elegant and responsive UI focused on beauty product shoppers.
+            </p>
+            <div class="project-feature-list">
+              <div class="pf-item"><span class="pf-dot"></span>Login & Register Authentication</div>
+              <div class="pf-item"><span class="pf-dot"></span>Home Page &amp; Hero Banner</div>
+              <div class="pf-item"><span class="pf-dot"></span>Product Listing &amp; Detail Page</div>
+              <div class="pf-item"><span class="pf-dot"></span>Checkout &amp; Order Summary</div>
+            </div>
+            <div class="project-tech-row">
+              <span class="ptech">Laravel</span>
+              <span class="ptech">MySQL</span>
+              <span class="ptech">HTML/CSS</span>
+              <span class="ptech">PHP</span>
+            </div>
+            <button class="btn-project-detail" onclick="openModal('modal0')">View Details →</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIVIDER (antara skincare dan project 1) -->
+      <div class="project-divider fade-up"></div>
+
+      // project 2
       <div class="project-showcase-item fade-up" data-index="01">
         <div class="project-showcase-number">01</div>
         <div class="project-showcase-content">
@@ -327,7 +370,7 @@
           </div>
           <div class="project-showcase-info">
             <div class="project-type-tag">Marketplace · Web App</div>
-            <h3 class="project-showcase-title">Car Buying & Selling 🚗</h3>
+            <h3 class="project-showcase-title">Venus Cars - Car Buying & Selling 🚗</h3>
             <p class="project-showcase-desc">
               Developed frontend and backend features for a web-based car marketplace platform. Implemented car listing, product detail, and data management functionalities. Designed responsive and user-friendly interfaces using Tailwind CSS. Collaborated in database management and overall system development.
             <div class="project-feature-list">
@@ -575,6 +618,33 @@
       </div>
     </div>
 
+    <div class="cert-card">
+      <div class="cert-img-wrap">
+        <img src="sertifikat3.jpg" alt="Certificate 3">
+        <div class="cert-img-overlay">
+          <span>🔍 View</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-img-wrap">
+        <img src="sertifikat4.jpg" alt="Certificate 4">
+        <div class="cert-img-overlay">
+          <span>🔍 View</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-img-wrap">
+        <img src="sertifikat5.jpg" alt="Certificate 5">
+        <div class="cert-img-overlay">
+          <span>🔍 View</span>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -623,6 +693,42 @@
   <footer>
     <p>Crafted with 💜 by <span>Marsha Olivia</span> · 2026</p>
   </footer>
+
+  <div id="modal0" class="modal">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal('modal0')">✕</button>
+    <div class="modal-header">
+      <div class="project-type-tag">Marketplace · Web App</div>
+      <h2>Skincare Buying &amp; Selling 🧴</h2>
+    </div>
+    <p class="modal-desc">
+      Developed a web-based skincare marketplace platform with a clean and modern interface. Implemented user authentication, product listing, and a seamless checkout experience. Designed an elegant and responsive UI focused on beauty product shoppers.
+    </p>
+    <div class="modal-features">
+      <h4>Key Features</h4>
+      <div class="modal-feature-list">
+        <div class="pf-item"><span class="pf-dot"></span>Login &amp; Register Authentication</div>
+        <div class="pf-item"><span class="pf-dot"></span>Home Page &amp; Hero Banner</div>
+        <div class="pf-item"><span class="pf-dot"></span>Product Listing &amp; Detail Page</div>
+        <div class="pf-item"><span class="pf-dot"></span>Checkout &amp; Order Summary</div>
+      </div>
+    </div>
+    <div class="modal-tech">
+      <h4>Tech Stack</h4>
+      <div class="project-tech-row">
+        <span class="ptech">Laravel</span>
+        <span class="ptech">MySQL</span>
+        <span class="ptech">HTML/CSS</span>
+        <span class="ptech">PHP</span>
+      </div>
+    </div>
+    <div class="modal-gallery">
+      <img src="skincare1.png" alt="Skincare 1">
+      <img src="skincare2.png" alt="Skincare 2">
+      <img src="skincare3.png" alt="Skincare 3">
+    </div>
+  </div>
+</div>
 
 
   <div id="modal1" class="modal">
