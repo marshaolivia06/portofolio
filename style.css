@@ -1072,3 +1072,15 @@ footer span { color: var(--accent); font-weight: 600; }
   margin-bottom: 0.4rem;
   line-height: 1.4;
 }
+
+/* Nomor project "00" styling (sama dengan yang lain tapi tetap konsisten) */
+.project-showcase-item[data-index="00"] .project-showcase-number {
+  /* Sudah handle otomatis oleh CSS yang ada, tidak perlu override khusus */
+}
+
+/* Jika cert-grid butuh grid lebih dari 2 kolom untuk 5 sertifikat */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
